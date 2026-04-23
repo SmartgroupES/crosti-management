@@ -1,0 +1,16 @@
+name = "crosti-management"
+pages_build_output_dir = ".next"
+compatibility_date = "2024-04-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "crosti-db"
+database_id = "0158b5f5-1566-47c0-8038-4863a7f1d7d3"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "crosti-files"
+
+[[r2_buckets]]
+binding = "INVOICES"
+bucket_name = "crosti-invoices"
