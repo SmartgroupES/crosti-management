@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
+  // We handle redirects in middleware to avoid infinite loops with case-sensitivity
 };
+
 export default nextConfig;
